@@ -21,7 +21,7 @@ public class PlatoPedido {
 
     //RELACIONES:
     @ManyToOne
-    @JoinColumn(name = pedido_id, nullable = false)
+    @JoinColumn(name = "pedido_id", nullable = false)
     @JsonBackReference
     private Pedido pedido;
 
